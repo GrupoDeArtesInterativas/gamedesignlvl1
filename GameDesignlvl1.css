@@ -14,9 +14,49 @@ font-family: 'Lobster', cursive;
 	/*border: 2px dotted red;*/
 }
 
+
+div {
+	padding: 8%;
+}
+
+/*HEADING COM TÍTULO*/
+.head {
+	background-image: url("pic_guy.png");
+	background-color: #0c0015;
+
+}
+
+.parallax {
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head h1 {
+	font-size: 300px;	
+	font-family: 'Do Hyeon', sans-serif;
+	line-height: 1.0;
+	color: #f67500;
+	mix-blend-mode: difference;
+}
+
+.head h1.smaller {
+	font-size: 200px;
+}
+
+.head h3 {
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	text-align: right;
+	color: #f67500;
+	mix-blend-mode: difference;
+
+}
+
+/*INTRODUÇÃO COM A BUSSOLA*/
 .intro {
-	background-color: #1d0f18;
-    background: linear-gradient(#0c0c10, black);
+	background-color: #0c0015;
     align-content: center;
 }
 
@@ -27,7 +67,6 @@ font-family: 'Lobster', cursive;
 
 }
 
-/*CSS ANIMAÇÃO BUSSOLA*/
 @keyframes example {
     0% {transform:rotateZ(0deg);}
     10% {transform:rotateZ(130deg);}
@@ -41,81 +80,44 @@ font-family: 'Lobster', cursive;
     90% {transform:rotateZ(30deg);}
     100% {transform:rotateZ(0deg);}
 }
+
 .bussola object {
 	animation-name: example;
-	animation-duration: 30s;
-}
-
-
-
-div {
-	padding: 8%;
-}
-
-div.head {
-	background-image: url("pic_guy.png");
-	background-color: #1d0f18;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
 
 }
 
-div.parallax {
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-h1 {
-	font-size: 300px;	
-	font-family: 'Do Hyeon', sans-serif;
-	line-height: 1.0;
-	color: #f67500;
-	mix-blend-mode: difference;
-}
-
-h1.smaller {
-	font-size: 200px;
-}
-
-h3 {
-	font-family: 'Lobster', cursive;
+.intro h5 {
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 40px;
-	text-align: right;
-	color: #f67500;
-	mix-blend-mode: difference;
-
-}
-
-h4 {
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 50px;
-	text-align: center;
-}
-
-h5 {
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 20px;
 	color: #dddddd;
-	padding: 3%;
-	background-color: rgba(255,255,255,0);
-	border-radius: 20px;
-}
 
-p {
-	text-align: center;
-}
-
-.compass {
-	padding: 0;
-	overflow: hidden;
-	margin: auto;
-	width: 280px;
-	height: 280px;
 }
 
 .deck {
-	background-image: url("pic_torch.png");
-	background-color: #809060;
+	background-image: url("pic_sky.png");
+	/*background: linear-gradient(#304050, #102030);*/
+}
+
+.deck h1 {
+	font-size: 50px;	
+	font-family: 'Do Hyeon', sans-serif;
+	/*font-family: 'Fjalla One', sans-serif;*/
+	/*font-family: 'Josefin Sans', sans-serif;*/
+	/*font-family: 'Lobster', cursive;*/
+	color: #ffffff;
+	mix-blend-mode: difference;
+	background-color: rgba(20,20,60,0.9);
+	background-blend-mode: difference;
+	border-radius: 10px;
+	padding: 8%;
+	vertical-align: top;
+}
+
+.deck td {
+	vertical-align: top;
 }
 
 .carta {
@@ -124,15 +126,49 @@ p {
 	display: inline-block;
 	margin: 10px;
 	border-radius: 20px;
+	background-color: #0c0015;
+	padding: 30px;
 }
 
-.c-branca {
-	background-color: white;
+.carta h5 {
+	font-size: 40px;
+	color: white;
+	margin: 0 8% 5% 8%;
+	/*text-align: center;*/
+}
+
+.carta h6 {
+	font-size: 15px;
+	text-align: right;
+	color: white;
+	margin: 3% 8% 0 0;
+}
+
+.carta p {
+	color: white;
+	margin: 0 8%;
+
+}
+
+.carta:hover {
+	border: 2px solid rgba(255,255,255,0.5);
 }
 
 .cardPic {
 	width: 100%;
 	height: 180px;
+}
+
+.footer {
+	background-color: #0c0015;
+
+}
+
+.footer h5 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	color: #dddddd;
+	text-align: center;
 }
 
 
