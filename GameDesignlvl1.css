@@ -135,8 +135,10 @@ div {
 	margin: 10px;
 	border-radius: 20px;
 	background-color: #0c0015;
+	/*background-color: #ffffff;*/
 	padding: 30px;
 	overflow: hidden;
+	 background-blend-mode: multiply;
 }
 
 .carta h5 {
