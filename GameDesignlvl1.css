@@ -4,7 +4,7 @@ fonts
 font-family: 'Arvo', serif;
 font-family: 'Lobster', cursive;
 font-family: 'Josefin Sans', sans-serif;
-font-family: 'Bangers', cursive;
+font-family: 'Rubik Mono One', sans-serif;
 font-family: 'Jaldi', sans-serif;
 
 */
@@ -34,19 +34,19 @@ div {
 	background-color: #0c0015;
 }
 .head h1 {
-	font-size: 20vw;	
+	font-size: 18vw;	
 	/*font-family: 'Arvo', serif;*/
 	/*font-family: 'Lobster', cursive;*/
 	/*font-family: 'Josefin Sans', sans-serif;*/
-	/*font-family: 'Bangers';*/
 	font-family: 'Jaldi', sans-serif;
-	line-height: 1.0;
+	line-height: 0.8;
+	margin-bottom: 3vw;
 	color: #f67500;
 	mix-blend-mode: difference;
 	/*letter-spacing: 20px;*/
 }
 .head h1.smaller {
-	font-size: 15vw;
+	font-size: 10vw;
 }
 .head h3 {
 	/*font-family: 'Arvo', serif;*/
@@ -121,6 +121,7 @@ div {
 
 	.intro h5 {
 		margin: 0;
+		font-size: 3vw;
 	}
 }
 
@@ -133,64 +134,75 @@ div {
 .deck {
 	padding: 0;
 	margin: 0 auto;
-	width: 90%;
+	width: 90vw;
 	display: grid;
-	grid-gap: 1%;
-	grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
+	grid-gap: 3vw;
+	/*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
+	grid-template-columns: 28vw 28vw 28vw;
 }
+
 .carta {
-	height: 45vw;
+	height: 26vw;
 	display: inline-block;
-	margin: 3vw;
 	border-radius: 3vw;
 	background-color: #0c0015;
 	/*background-color: #ffffff;*/
 	padding: 3vw;
 	overflow: hidden;
 }
+
 .carta h5 {
-	font-size: 6vw;
+	font-size: 4vw;
 	/*font-family: 'Arvo', serif;*/
 	font-family: 'Lobster', cursive;
 	/*font-family: 'Josefin Sans', sans-serif;*/
 	/*font-family: 'Bangers';*/
 	color: white;
-	margin: 0 8% 2% 8%;
-	line-height: 60px;
+	margin-bottom: 1vw;
 }
 .carta h6 {
 	font-size: 2vw;
-	text-align: right;
-	color: white;
-	margin: 3% 8% 0 8%;
-	/*font-family: 'Arvo', serif;*/
-	/*font-family: 'Lobster', cursive;*/
-	font-family: 'Josefin Sans', sans-serif;
-	/*font-family: 'Banger*/
-}
-.carta h6:nth-of-type(2) {
 	text-align: left;
-	margin: 7% 8% 7% 8%;
+	color: white;
+	margin-bottom: 1vw;
 	/*font-family: 'Arvo', serif;*/
 	/*font-family: 'Lobster', cursive;*/
 	font-family: 'Josefin Sans', sans-serif;
-	/*font-family: 'Bangers';*/
 }
 .carta p {
 	font-size: 1vw;
 	color: white;
-	margin: 3% 8% 25px 8%;
+	margin-bottom: 1vw;
 	font-family: 'Arvo', serif;
 	/*font-family: 'Lobster', cursive;*/
 	/*font-family: 'Josefin Sans', sans-serif;*/
-	/*font-family: 'Banger*/
 }
 .carta:hover {
-	border: 2px solid rgba(255,255,255,0.5);
+	border: 0.3vw solid #f0f0f0;
 }
 
 @media only screen and (max-width: 620px) {
-	
+	.deck {
+		grid-template-columns: auto;
+	}
+	.carta {
+		height: 92vw;
+		width: 72vw;
+		border-radius: 9vw;
+		padding: 9vw;
+	}
+	.carta h5 {
+		font-size: 12vw;
+		margin-bottom: 3vw;
+	}
+	.carta h6 {
+		font-size: 6vw;
+		margin-bottom: 3vw;
+	}
+	.carta p {
+		font-size: 3vw;
+		margin-bottom: 3vw;
+	}
 }
 
 					/*FOOTER*/
@@ -199,24 +211,26 @@ div {
 }
 .footer h5 {
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 20px;
+	font-size: 2vw;
 	color: #dddddd;
 	text-align: center;
 }
 
 					/*CONTENT*/
+
+
 .content {
 	background-color: #0c0015;
 	/*background-color: #bbbbbb;*/
 	border-radius: 5vw;
-	margin: 10% auto;
+	margin: 0 auto;
 	display: block;
 	width: 80%;
 }
 
 .content h1 {
 	color: #f0f0f0;
-	font-size: 10vw;
+	font-size: 15vw;
 	/*font-family: 'Arvo', serif;*/
 	font-family: 'Lobster', cursive;
 	/*font-family: 'Josefin Sans', sans-serif;*/
@@ -232,25 +246,24 @@ div {
 }
 
 .content p {
-	color: #f3f3f3;
-	font-size: 20px;
+	color: #d0d0d0;
+	font-size: 2vw;
 	font-family: 'Josefin Sans', sans-serif;
 	/*font-family: 'Arvo', serif;*/
-	margin-bottom: 20px;
-	margin-left: 50px;
-	width: 70%
+	margin-bottom: 4vw;
+	width: 70vw;
 }
 
 .content a {
 	color: #0c0015;
-	background-color: white;
-	border-radius: 10px;
-	margin: 10px;
-	padding: 8px;
+	background-color: #d0d0d0;
+	border-radius: 1vw;
+	margin: 2vw;
+	padding: 1vw;
 	text-decoration: none;
 }
 .content a:hover {
-	background-color: #white;
+	background-color: white;
 }
 
 /* CUSTOM SCROLL BAR xD */
