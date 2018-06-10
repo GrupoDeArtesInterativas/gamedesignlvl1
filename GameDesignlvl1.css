@@ -34,9 +34,10 @@ div {
 	background-color: #0c0015;
 }
 .head h1 {
-	font-size: 18vw;	
-	font-family: 'Jaldi', sans-serif;
-	line-height: 0.8;
+	font-size: 15vw;	
+	font-family:'Josefin Sans', sans-serif;
+	font-weight: bold;
+	/*line-height: 0.8;*/
 	margin-bottom: 3vw;
 	color: #f67500;
 	mix-blend-mode: difference;
