@@ -35,24 +35,17 @@ div {
 }
 .head h1 {
 	font-size: 18vw;	
-	/*font-family: 'Arvo', serif;*/
-	/*font-family: 'Lobster', cursive;*/
-	/*font-family: 'Josefin Sans', sans-serif;*/
 	font-family: 'Jaldi', sans-serif;
 	line-height: 0.8;
 	margin-bottom: 3vw;
 	color: #f67500;
 	mix-blend-mode: difference;
-	/*letter-spacing: 20px;*/
 }
 .head h1.smaller {
 	font-size: 10vw;
 }
 .head h3 {
-	/*font-family: 'Arvo', serif;*/
 	font-family: 'Lobster', cursive;
-	/*font-family: 'Josefin Sans', sans-serif;*/
-	/*font-family: 'Bangers';*/
 	font-size: 3vw;
 	text-align: right;
 	color: #f67500;
@@ -105,10 +98,7 @@ div {
 	animation-iteration-count: infinite;
 }
 .intro h5 {
-	/*font-family: 'Arvo', serif;*/
-	/*font-family: 'Lobster', cursive;*/
 	font-family: 'Josefin Sans', sans-serif;
-	/*font-family: 'Banger';*/
 	margin: 0 20%;
 	font-size: 2vw;
 	color: #dddddd;
@@ -121,7 +111,7 @@ div {
 
 	.intro h5 {
 		margin: 0;
-		font-size: 3vw;
+		font-size: 4vw;
 	}
 }
 
@@ -137,7 +127,6 @@ div {
 	width: 90vw;
 	display: grid;
 	grid-gap: 3vw;
-	/*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
 	grid-template-columns: 28vw 28vw 28vw;
 }
 
@@ -146,17 +135,13 @@ div {
 	display: inline-block;
 	border-radius: 3vw;
 	background-color: #0c0015;
-	/*background-color: #ffffff;*/
 	padding: 3vw;
 	overflow: hidden;
 }
 
 .carta h5 {
 	font-size: 4vw;
-	/*font-family: 'Arvo', serif;*/
 	font-family: 'Lobster', cursive;
-	/*font-family: 'Josefin Sans', sans-serif;*/
-	/*font-family: 'Bangers';*/
 	color: white;
 	margin-bottom: 1vw;
 }
@@ -165,17 +150,14 @@ div {
 	text-align: left;
 	color: white;
 	margin-bottom: 1vw;
-	/*font-family: 'Arvo', serif;*/
-	/*font-family: 'Lobster', cursive;*/
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Jaldi', sans-serif;
+
 }
 .carta p {
-	font-size: 1vw;
+	font-size: 1.5vw;
 	color: white;
 	margin-bottom: 1vw;
-	font-family: 'Arvo', serif;
-	/*font-family: 'Lobster', cursive;*/
-	/*font-family: 'Josefin Sans', sans-serif;*/
+	font-family: 'Josefin Sans', sans-serif;
 }
 .carta:hover {
 	border: 0.3vw solid #f0f0f0;
@@ -200,7 +182,7 @@ div {
 		margin-bottom: 3vw;
 	}
 	.carta p {
-		font-size: 3vw;
+		font-size: 4vw;
 		margin-bottom: 3vw;
 	}
 }
@@ -215,13 +197,17 @@ div {
 	color: #dddddd;
 	text-align: center;
 }
+@media only screen and (max-width: 620px) {
+	.footer h5 {
+		font-size: 6vw;
+	}
+}
 
 					/*CONTENT*/
 
 
 .content {
 	background-color: #0c0015;
-	/*background-color: #bbbbbb;*/
 	border-radius: 5vw;
 	margin: 0 auto;
 	display: block;
@@ -230,18 +216,15 @@ div {
 
 .content h1 {
 	color: #f0f0f0;
-	font-size: 15vw;
-	/*font-family: 'Arvo', serif;*/
+	font-size: 12vw;
 	font-family: 'Lobster', cursive;
-	/*font-family: 'Josefin Sans', sans-serif;*/
-	/*font-family: 'Bangers', cursive;*/
-	margin-bottom: 5vw;
+	margin-bottom: 3vw;
 }
 
 .content h2 {
 	color: #f0f0f0;
 	font-size: 5vw;
-	font-family: "Josefin Sans", sans-serif;
+	font-family: 'Jaldi', sans-serif;
 	margin-bottom: 5vw;
 }
 
@@ -249,7 +232,6 @@ div {
 	color: #d0d0d0;
 	font-size: 2vw;
 	font-family: 'Josefin Sans', sans-serif;
-	/*font-family: 'Arvo', serif;*/
 	margin-bottom: 4vw;
 	width: 70vw;
 }
@@ -264,6 +246,28 @@ div {
 }
 .content a:hover {
 	background-color: white;
+}
+.content .links {
+	padding: 0;
+	margin: 4vw;
+}
+
+@media only screen and (max-width: 620px) {
+	.content h1 {
+		font-size: 18vw;
+	}
+	.content h2 {
+		font-size: 8vw;
+		margin-bottom: 8vw;
+	}
+	.content p {
+		font-size: 4vw;
+		width: 80vw;
+	}
+	.content a {
+
+	}
+
 }
 
 /* CUSTOM SCROLL BAR xD */
