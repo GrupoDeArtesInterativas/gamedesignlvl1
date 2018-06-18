@@ -68,7 +68,7 @@ div {
 
 					/*INTRO*/
 .intro {
-	background-color: #0c0015;
+	background-color: #202126;
     align-content: center;
 }
 .bussola {
@@ -102,7 +102,7 @@ div {
 	font-family: 'Josefin Sans', sans-serif;
 	margin: 0 20%;
 	font-size: 2vw;
-	color: #dddddd;
+	color: #d0d0d0;
 }
 
 @media only screen and (max-width: 620px){
@@ -135,7 +135,7 @@ div {
 	height: 26vw;
 	display: inline-block;
 	border-radius: 3vw;
-	background-color: #0c0015;
+	background-color: #202126;
 	padding: 3vw;
 	overflow: hidden;
 }
@@ -143,20 +143,20 @@ div {
 .carta h5 {
 	font-size: 4vw;
 	font-family: 'Lobster', cursive;
-	color: white;
+	color: #d0d0d0;
 	margin-bottom: 1vw;
 }
 .carta h6 {
 	font-size: 2vw;
 	text-align: left;
-	color: white;
+	color: #d0d0d0;
 	margin-bottom: 1vw;
 	font-family: 'Jaldi', sans-serif;
 
 }
 .carta p {
 	font-size: 1.5vw;
-	color: white;
+	color: #d0d0d0;
 	margin-bottom: 1vw;
 	font-family: 'Josefin Sans', sans-serif;
 }
@@ -190,12 +190,12 @@ div {
 
 					/*FOOTER*/
 .footer {
-	background-color: #0c0015;
+	background-color: #202126;
 }
 .footer h5 {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 2vw;
-	color: #dddddd;
+	color: #d0d0d0;
 	text-align: center;
 }
 @media only screen and (max-width: 620px) {
@@ -208,7 +208,7 @@ div {
 
 
 .content {
-	background-color: #0c0015;
+	background-color: #202126;
 	border-radius: 5vw;
 	margin: 0 auto;
 	display: block;
@@ -216,17 +216,18 @@ div {
 }
 
 .content h1 {
-	color: #f0f0f0;
+	color: #d0d0d0;
 	font-size: 12vw;
 	font-family: 'Lobster', cursive;
 	margin-bottom: 3vw;
 }
 
 .content h2 {
-	color: #f0f0f0;
+	color: #d0d0d0;
 	font-size: 5vw;
 	font-family: 'Jaldi', sans-serif;
-	margin-bottom: 5vw;
+	margin-bottom: 2vw;
+	margin-top: 6vw;
 }
 
 .content p {
@@ -235,23 +236,36 @@ div {
 	font-family: 'Josefin Sans', sans-serif;
 	margin-bottom: 4vw;
 	width: 70vw;
+	line-height: 1.1;
 }
 
 .content a {
-	color: #0c0015;
+	color: #202126;
 	background-color: #d0d0d0;
 	border-radius: 1vw;
-	margin: 2vw;
-	padding: 1vw;
+	margin: 0vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
 	text-decoration: none;
+/*	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;*/
 }
 .content a:hover {
-	background-color: white;
+	background-color: #fff;
 }
-.content .links {
-	padding: 0;
-	margin: 4vw;
+.content h2 a {
+	border-radius: 2vw;
+	margin: 2vw;
+	padding-left: 3vw;
+	padding-right: 3vw;
 }
+
+.content object {
+	width: 50%;
+	/*float: left;*/
+	margin: 2vw;
+}
+
 
 @media only screen and (max-width: 620px) {
 	.content h1 {
@@ -259,30 +273,29 @@ div {
 	}
 	.content h2 {
 		font-size: 8vw;
-		margin-bottom: 8vw;
 	}
 	.content p {
 		font-size: 4vw;
 		width: 80vw;
 	}
-	.content a {
-
-	}
+	.content object {
+	width: 100%;
+}
 
 }
 
 /* CUSTOM SCROLL BAR xD */
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 1vw;
 }
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #1d0f18; 
+    background: #202126; 
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #f67500; 
+    background: #d0d0d0; 
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
