@@ -129,6 +129,7 @@ div {
 	display: grid;
 	grid-gap: 3vw;
 	grid-template-columns: 28vw 28vw 28vw;
+	/*grid-template-rows: 26vw 26vw;*/
 }
 
 .carta {
@@ -138,6 +139,7 @@ div {
 	background-color: #202126;
 	padding: 3vw;
 	overflow: hidden;
+	width: 21vw;
 }
 
 .carta h5 {
@@ -158,6 +160,7 @@ div {
 	font-size: 1.5vw;
 	color: #d0d0d0;
 	margin-bottom: 1vw;
+	margin-top: 2vw;
 	font-family: 'Josefin Sans', sans-serif;
 }
 .carta:hover {
@@ -191,16 +194,43 @@ div {
 					/*FOOTER*/
 .footer {
 	background-color: #202126;
+	padding: 10vw;
 }
 .footer h5 {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 2vw;
 	color: #d0d0d0;
 	text-align: center;
+	line-height: 1,2;
+	margin-top: 5vw;
+	margin-bottom: 5vw;
 }
+.footer a {
+	color: #202126;
+	background-color: #d0d0d0;
+	border-radius: 0.5vw;
+	margin: 1vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	text-decoration: none;
+}
+.footer object {
+	width: 100%;
+}
+.footer div {
+	/*width: 50%;*/
+	margin: 0 20%;
+}
+
 @media only screen and (max-width: 620px) {
 	.footer h5 {
-		font-size: 6vw;
+		font-size: 4vw;
+	}
+	.footer object {
+		width: 100%;
+	}
+	.footer div {
+		margin: 0;
 	}
 }
 
@@ -230,8 +260,8 @@ div {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700vw;
 	margin: auto;
-	margin-bottom: 2vw;
-	margin-top: 10vw;
+	margin-bottom: 4vw;
+	margin-top: 13vw;
 
 }
 
@@ -247,13 +277,19 @@ div {
 	line-height: 1.1;
 }
 
+.content p .good{
+	 color: #33ff77;
+}.content p .bad{
+	 color: #ff3377;
+}
+
 .content a {
 	color: #202126;
 	background-color: #d0d0d0;
-	border-radius: 1vw;
-	margin: auto;
-	padding-left: 2vw;
-	padding-right: 2vw;
+	border-radius: 0.5vw;
+	margin: 1vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
 	text-decoration: none;
 /*	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;*/
@@ -277,6 +313,11 @@ div {
 	width: 30%;
 }
 
+.voltar {
+	font-size: 5vw;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: 3vw;
+}
 
 @media only screen and (max-width: 620px) {
 	.content h1 {

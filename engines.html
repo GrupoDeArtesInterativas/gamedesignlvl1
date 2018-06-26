@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game Design lvl 1</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Arvo|Josefin+Sans|Lobster|Jaldi:700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="GameDesignlvl1.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="keywords" content="Game Design, Jogos Digitais, Game Dev, UNESP, Faac, Grupo de Artes Interativas.">
+	<meta name="author" content="Rodrigo Morelli Cavalcante">
+	<meta name="description" content="Game Design para Newbies!">
+
+	<meta property="og:title" content="Game Design Level 1">
+	<meta property="og:description" content="Game Design para Newbies!">
+	<meta property="og:image" content="pic_metaguy.png">
+	<meta property="og:url" content="digoritos.github.io/gamedesignlvl1">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="pic_metaguy.png">
+</head>
+<body>
+	<div class="bg parallax">
+		<div class="content">
+			<div class="voltar"><a href="index.html" ><</a></div>
+			<h1>Engines</h1>
+			<!-- <h2>Tecnologia</h2> -->
+			<p>Game Engines são os softwares utilizados para se criar jogos, também conhecidas como motores gráficos, são responsáveis por realizar diversas funções comuns a jogos digitais como renderizar pixels na tela, fazer cálculos de física, dar suporte a sons, suporte a animações, gerência de memória e de arquivos, entre outros.</p> 
+			<p>Já foi mais comum escrever sua própria engine do zero, coisa que demora e é dificil para um caraho. Felizmente hoje em dia existem diversas engines disponíveis cada uma com suas vantagens, disvantagens e especificações, cada uma melhor atinge necessidades de pessoas diferentes com conhecimentos diferentes.</p>
+			<p>Eu segui um conselho que vi provavelmente em algum video do youtube para experimentar o maior numero de engines que puder para poder escolher a que melhor você se adapta, e posso dizer que foi uma ótima experiência, entender as capacidades e o funcionamento de cada engine faz com que, por comparação, você entenda melhor o workflow de cada uma. </p>
+			<p>Deixo com vocês uma lista das ferramentas que tive contato, outras listas maiores podem ser encontradas como essa aqui do <a href="http://www.pixelprospector.com/the-big-list-of-game-making-tools/"> pixel prospector</a>, ou essa maior ainda no github chamada<a href="https://github.com/GrupoDeArtesInterativas/magictools">magic tools</a> que abrange todo tipo de ferramenta.</p>
+
+			<h2><a href="https://www.construct.net/br">Construct</a></h2>
+			<img class="small" src="https://static4.scirra.net/images/con3/logo.png">
+			<p>Construct 3 é uma engine 2D que não requer conhecimento de programação, construindo sua lógica através de eventos e ações, com diversos comportamentos prontos. Ela funciona no <strong class="good">browser</strong> permitindo abrir seus jogos em qualquer sistema operacional, com a possibilidade de baixá-la no seu pc também. Pela sua simplicidade se mostra ótima para <strong class="good">prototipar</strong> suas idéias ou participar de game jams por exemplo, a recomendo também para <strong class="good">artistas ou designers</strong> que querem criar seus jogos sem programadores. Sua <strong class="bad">performance</strong> porém se torna inferior a outras nessa lista, limitando o tamanho e a complexidade do jogo. Possui editor de imagens, agilizando processos com criação de imagens provisórias.</p>
+			<p>Nesta data (26 jun 2018) ainda está em beta, com possibilidade de exportar jogos em html gratuitamente, mas ela será distribuído por <strong class="bad">assinatura</strong>, oque se torna caro a longo prazo ou caso ela não seja sua engine principal.</p>
+			<img class="small" src="c3_touch.jpg">
+			<p>Event sheet do Construct 3, onde a lógica é descrita, em sua versão mobile.</p> 
+
+			<h2><a href="https://www.yoyogames.com/">Game Maker</a></h2>
+			<img class="big" src="https://www.yoyogames.com/images/pages/homepage/GMS2_logo_Centered.png">
+			<p>Game Maker Studio ja foi responsável por alguns indie hits como spelunky e hyper light drifter, sua performance e funcionalidade se mostram superior a do construct, sua <strong class="good">interface</strong> é muito bem elaborada e seu <strong class="good">workflow</strong> eficiente. Sua lógica pode ser construída tanto com a GML (Game Maker Language), linguagem própria do software, amigável para iniciantes e bem completa, ou através do sistema Drag'n'Drop, em que você arrasta blocos para formar a estrutura de lógica, novamente ótima para <strong class="good">artistas e designers</strong> e para <strong class="good">aprender lógica de programação</strong>, assim como construct, ela é somente para jogos 2D. </p>
+			<p>Ela é vendida com <strong class="good">licença vitalícia</strong> porém vende <strong class="bad">separadamente</strong> a possibilidade de publicar para plataformas diferentes, sua versão <strong class="good">básica é relativamente barata</strong>, mas só exporta para desktop, se quiser exportar para web, paga mais, se quiser exportar para mobile, paga muito mais, UWP, console, enfim, se quiser o software completo vai ter que <strong class="bad">desembolsar milão</strong> no mínimo. Ela roda em Windows e Mac.</p>
+			<img src="gms2_code.png" class="big">
+			<p>Lógica por Drag'n'Drop a esquerda e seu correspondente em GML a direita.</p>
+
+			<h2><a href="http://www.stencyl.com/">Stencyl</a></h2>
+			<img class="small" src="stencyl.png">
+			<p>Stencyl é bem <strong class="bad">menos popular</strong> que as duas anteriores limitando a quantidade de tutoriais. Só é vendida por dólares, sob assinatura, tornando-a <strong class="bad">cara</strong>, mas tem alguns motivos para ela estar aqui na lista. Sua versão <strong class="good">gratuita permite exportar</strong> para HTML, compensando pra quem não tem a intenção de gastar dinheiro com uma engine, uma vez que as duas engines anteriores não permitem exportar em suas versões gratuitas limitadas. O destaque do Stencyal vai para sua estrutura de lógica, feita por bloquinhos, cheio de comportamentos prontos para estudar, baseado na ferramenta <a href="https://scratch.mit.edu/">Scratch</a> do MIT criada para ensinar programação para crianças de até 8 anos, ou seja, uma ótima engine provisória para quem quer <strong class="good">aprender lógica ou programação</strong> per se. Sua performance não é das melhores, fazendo com que ela seja mais interessante para aprendizado e exploração. Ela roda em Windows, Mac e Linux.</p>
+			<img src="stencyl_code.png" class="big">
+			<p>A tal da programação por bloquinhos, recomendo para todos que querem fazer jogos e não sabem programação, entender a lógica por trás dos jogos é gratificante e ajuda a todos da equipe entenderem o mindset dos programadores.</p>
+
+			<h2><a href="https://unity3d.com/">Unity</a></h2>
+			<img src="unity.png" class="big">
+			<p>Essa você deve conhecer, a engine <strong class="good">mais popular</strong> atualmente, principalmente entre desenvolvedores independentes, fazendo com que suporte online e tutoriais seja farto, assim como oportunidades para encontrar equipes, além de uma quantidade de plug-ins imensa e a <strong class="good">Asset Store</strong> mais recheada de todas as engines. Diferente das engines anteriores, a unity pode criar jogos <strong class="good">2D e 3D</strong>, apesar de ter ouvido diversas reclamações sobre o editor 2D, por ser o mesmo editor 3D mas com visão fixa, prejudicando a performance do jogo. Sua lógica é escrita em C#, de alta <strong class="good">performance</strong> porém relativamente <strong class="bad">difícil</strong> para iniciantes. Ela é <strong class="good">gratuita</strong> caso sua empresa fature menos que 100 mil dólares anuais, e oferece planos mensais com suportes adicionais.</p>
+			<img src="playmaker.png" class="big">
+			<p>Lembra que eu falei da Asset Store? Lá vc pode comprar de tudo para seus jogos, códigos, arte, animações, etc. Incluindo Plug-ins como o Playmaker acima (gratuito), que conta com uma interface de programação visual super legal para designers ou artistas.</p>
+
+			<h2><a href="https://www.unrealengine.com">Unreal</a></h2>
+			<img src="unreal.png" class="small">
+			<p>Talvez ja tenha ouvido falar dessa também, muito <strong class="good">popular</strong> na indústria dos grandes jogos, sua <strong class="good">performance</strong> muito provavelmente é a maior dessa lista, pois sua lógica é escrita em C++, essa linguagem é monstrona, mas definitivamente <strong class="bad">fora de questão para iniciantes</strong> pela sua complexidade. Ela possui muito provavelmente o <strong class="good">melhor render 3D</strong> do mercado, beautiful! Seu <strong class="good">código é aberto</strong>, permitindo que usuários experientes possam alterar o funcionamento da engine de acordo com suas necessidades. Ela pode fazer jogos 2D e 3D, roda em Windows, Mac e Linux e apesar de "gratuita", cobra 5% das vendas de seus jogos. </p>
+			<img src="unreal_blueprints.jpg" class="big">
+			<p>A Unreal conta com uma ferramenta nativa para <strong class="good">programação visual</strong> chamada Blueprints, vista na imagem acima, permite que designers possam modificar e alterar parâmetros ou aé criar mecânicas sem precisar da ajuda de programadores, apesar disso, fazer um jogo inteiro através dessa ferramenta não parece muito viável.</p>
+
+			<h2><a href="https://godotengine.org/">Godot</a></h2>
+			<img src="godot.png" class="small">
+			<p>Godot é uma engine <strong class="good">Open Source</strong> bem nova em relação as anteriores, sua comunidade vem crescendo rapidamente mas ainda está longe da Unity por exemplo. Sua lógica pode ser escrita em C# ou GDScript, língua própria da engine, baseada em python, ótima para iniciantes que querem aprender a programar, além de possuir um módulo chamado GDNative, que permite o uso de outras línguas, sendo uma engine versátil com a possibilidade de <strong class="good">diversas línguas</strong>. Ela roda em Windows, Mac e Linux e possibilita a criação de jogos 2D e 3D.</p>
+			<img src="godot_visualscripting.png" class="big">
+			<p>A Godot também conta com uma ferramenta nativa de programação visual vista acima.</p>
+			<p>Sou suspeito pra falar dessa engine pois é minha favorita, é o workflow que eu melhor me adaptei e foi uma das últimas que testei, porisso reforço que experimentem um número bom de engines!</p>
+
+
+
+		</div>
+	</div>
+
+</body>
+</html>
